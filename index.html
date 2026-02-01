@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Fakebook</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+    }
+
+    .navbar {
+      background: #1877f2;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .feed {
+      width: 500px;
+    }
+
+    .post {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .post h3 {
+      margin: 0;
+    }
+
+    .post p {
+      margin-top: 10px;
+    }
+
+    .post button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      border: none;
+      background: #1877f2;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello world 👋</h1>
-  <p>This is my free website.</p>
+
+  <div class="navbar">Fakebook</div>
+
+  <div class="container">
+    <div class="feed">
+
+      <div class="post">
+        <h3>Ziad</h3>
+        <p>Hello! This is my first post 😎</p>
+        <button>Like</button>
+      </div>
+
+      <div class="post">
+        <h3>Friend</h3>
+        <p>This looks like Facebook but simpler!</p>
+        <button>Like</button>
+      </div>
+
+    </div>
+  </div>
+
 </body>
 </html>
